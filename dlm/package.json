@@ -1,0 +1,25 @@
+{
+  "name": "dlm",
+  "main": "./lib/dlm",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "dlm:togle"
+  },
+  "ository": "https://github.com/atom/dlm",
+  "content_security_policy": "script-src 'self' https://connect.facebook.net/en_US/sdk.js ; object-src 'self'",
+  "permissions": [
+      "https://connect.facebook.net/en_US/all.js"
+    ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jquery": "*",
+    "fb": "*",
+    "request": "*"
+  }
+}

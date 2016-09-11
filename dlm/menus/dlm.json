@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "dlm:FB Notify me",
+        "command": "dlm:togle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dlm",
+          "submenu": [
+            {
+              "label": "Notify me",
+              "command": "dlm:togle"
+            },
+            {
+              "label":"FB_call",
+              "command": "dlm:call_fb"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

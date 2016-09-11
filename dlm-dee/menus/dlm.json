@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "dlm:Codechef live",
+        "command": "dlm:iiitahacks"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dlm",
+          "submenu": [
+            {
+              "label": "iiitahacks",
+              "command": "dlm:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
